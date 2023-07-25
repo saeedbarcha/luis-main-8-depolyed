@@ -1,0 +1,135 @@
+/*---------product-----------*/
+.ProductCont {
+  max-width: 250px;
+  min-width: 210px;
+  margin: 10px;
+  box-shadow: rgb(3 0 71 / 30%) 0px 1px 3px;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.4s;
+}
+.ProductCont:hover {
+  transform: scale(1.1);
+}
+.product {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  height: auto;
+}
+
+.proImgCont {
+  width: 100%;
+  height: auto;
+
+  border-radius: 15px;
+  box-shadow: rgba(8, 3, 92, 0.09) 0px 1px 3px;
+  margin-bottom: 20px;
+  display: flex;
+  margin: 0 auto;
+}
+.proImg {
+  width: 100%;
+  height: 120px;
+  border-radius: 15px;
+}
+.discount {
+  position: relative;
+  top: 25px;
+  left: 0;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 10px;
+}
+.product h3 {
+  font-weight: 400;
+  font-size: 17px;
+}
+.product .rate i {
+  font-size: 15px;
+  color: #ffcd4e;
+  margin: 5px 5px 5px 0;
+}
+.product .price {
+  display: flex;
+  justify-content: space-between;
+  color: #e98337;
+}
+.price button {
+  background: none;
+  color: #e98337;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 1px solid rgb(3 0 71 / 9%);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+.price button:hover {
+  cursor: pointer;
+  background-color: #e94560;
+  color: #fff;
+}
+
+.price button:active {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) inset;
+  transform: translateY(2px);
+  background: linear-gradient(to bottom, #ee647b 10%, #e94560 100%);
+}
+
+.product-like {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-like label {
+  background-color: #0f3460;
+  padding: 1px 10px;
+  font-size: 12px;
+  color: white;
+  border-radius: 50px;
+}
+.product-like i {
+  font-size: 20px;
+  margin: 10px 3px;
+}
+
+.addToCartBtn {
+  padding: 4px 0px;
+  border: none;
+  outline: none;
+  margin-top: 4px;
+  background: #e98337;
+  color: #fff;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.addToCartBtn:hover {
+  opacity: 0.9;
+  background: #e94560;
+}
+
+.addToCartBtn:active {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) inset;
+  transform: translateY(2px);
+  background: linear-gradient(to bottom, #ee647b 10%, #e94560 100%);
+}
+
+/*---------media query-----------*/
+@media screen and (max-width: 992px) {
+  .ProductCont {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ProductCont {
+    margin: auto;
+  }
+}

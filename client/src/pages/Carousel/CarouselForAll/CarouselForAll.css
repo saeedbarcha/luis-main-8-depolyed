@@ -1,0 +1,71 @@
+.topCarouselMainCont {
+  margin: 0%;
+  width: 100%;
+  padding: 0px;
+}
+.homeSlideAll {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.leftAll {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leftAll .descountTextAll {
+  font-size: 33px;
+  padding: 0px 8px;
+  margin: 3px 0px;
+}
+.leftAll .nameTextAll {
+  font-size: 22px;
+  padding: 0px 8px;
+  margin: 5px 0px 0px 0px;
+}
+.leftAll .desTextAll {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0px 8px;
+  margin: 3px 0px;
+}
+.leftAll .MoreBtnSliderAll {
+  background-color: #e98337;
+  padding: 5px 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  width: 50%;
+  margin: 5px 8px;
+  margin-top: 40px;
+}
+.leftAll .MoreBtnSliderAll:hover {
+  background: linear-gradient(to bottom, #f7a96e 10%, #ff6f00 100%);
+}
+.leftAll .MoreBtnSliderAll:active {
+  transform: translateY(2px);
+  background: linear-gradient(to bottom, #ff6f00 10%, #f7a96e 100%);
+}
+.sliderRightImg {
+  width: 52%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderRightImg .sliderImg {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+}
+.selectedDot {
+  background-color: rgb(255, 255, 255);
+}

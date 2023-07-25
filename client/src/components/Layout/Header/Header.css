@@ -1,0 +1,81 @@
+.headerCont {
+  margin-bottom: 60px;
+}
+
+.logoAndNameCont {
+  text-decoration: none;
+}
+.brandNameHeader {
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: 700;
+  color: #e98337;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+.navbarToggler {
+  border: none;
+  color: #e98337;
+  background-color: #ffefba;
+  padding: 0px;
+  outline: none;
+}
+.navbarToggler:active {
+  color: #e98337;
+}
+
+.navLinksCont {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.navItem {
+  font-weight: bold;
+  height: 30%;
+  margin: auto;
+  border-radius: 10px;
+}
+.navItem:hover {
+  font-weight: bold;
+  background-color: transparent;
+  margin: auto;
+  box-shadow: 0 4px 4px -2px #ffefba;
+}
+.navItem:active {
+  background-color: #ffefba;
+  font-weight: bold;
+  margin: auto;
+}
+.dropdown-item:focus {
+  background-color: #ffefba;
+  color: rgb(26, 26, 26);
+}
+.dropdown-item:active {
+  background-color: #ffefba;
+  color: rgb(26, 26, 26);
+}
+.navLink {
+  font-weight: 300 !important;
+}
+a.nav-links.active {
+  color: #4b4e3a;
+}
+
+@media screen and (max-width: 992px) {
+  .navItem:hover {
+    font-weight: bold;
+    background-color: #ffffff;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0 0 4px 1px #ffefba;
+  }
+  .navItem:active {
+    font-weight: bold;
+    margin: auto;
+  }
+  .navItem {
+    width: 100%;
+    padding-left: 10px;
+  }
+}
