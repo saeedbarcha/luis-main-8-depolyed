@@ -32,6 +32,11 @@ app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"))
 });
 
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to lubick  ecommerce app</h1>");
+});
+
+
 //middleware for error
 app.use(errorMiddleware)
 
