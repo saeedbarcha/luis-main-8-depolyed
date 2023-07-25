@@ -29,9 +29,9 @@ if (cluster.isPrimary) {
 } else {
   // Connect to database
   connectDB();
-
-  const server = app.listen(process.env.PORT, () => {
-    console.log(`Server is running in ${process.env.NODE_ENV} mode on http://localhost:${process.env.PORT}`);
+  const PORT = process.env.PORT || 7000;
+  const server = app.listen(PORT, () => {
+    console.log(`Server is running in ${process.env.NODE_ENV} mode on http://localhost:${PORT}`);
   });
 
   // Unhandled promise Rejection
