@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0913c61d.css",
+    "main.js": "/static/js/main.971010ea.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/arrivals6.png": "/static/media/arrivals6.b1fcc7559c6ea9a82ca4.png",
+    "static/media/slide-4.png": "/static/media/slide-4.81a9f74553a3b437c530.png",
+    "static/media/category-1.png": "/static/media/category-1.dce741012e2c79fe8008.png",
+    "static/media/banner-2.png": "/static/media/banner-2.44eea412ecf7c1cdfaca.png",
+    "static/media/bg.jpg": "/static/media/bg.3f3458bc977cd12938ae.jpg",
+    "static/media/banner-1.png": "/static/media/banner-1.225f7ce977ec440e467f.png",
+    "static/media/slide-2.png": "/static/media/slide-2.6edbb9409f5a552e0d7d.png",
+    "static/media/category-3.png": "/static/media/category-3.4a0f02246ff6ac1134cd.png",
+    "static/media/arrivals4.png": "/static/media/arrivals4.823c12769175bd09d74b.png",
+    "static/media/arrivals1.png": "/static/media/arrivals1.7196026037f9b001d5c7.png",
+    "static/media/arrivals2.png": "/static/media/arrivals2.84583993f77f628a28e0.png",
+    "static/media/arrivals3.png": "/static/media/arrivals3.210175892efe60b4baaa.png",
+    "static/media/arrivals5.png": "/static/media/arrivals5.8d88881aa74606d93ad3.png",
+    "static/media/slide-3.png": "/static/media/slide-3.0e8f1d6ba37eef496260.png",
+    "static/media/slide-1.png": "/static/media/slide-1.25be2f84e72ecbe7d0e0.png",
+    "static/media/logo.jpg": "/static/media/logo.3d332c290e4f041d22eb.jpg",
+    "static/media/logo.png": "/static/media/logo.3d332c290e4f041d22eb.png",
+    "static/media/category-2.png": "/static/media/category-2.17535290f498957e9614.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.0913c61d.css.map": "/static/css/main.0913c61d.css.map",
+    "main.971010ea.js.map": "/static/js/main.971010ea.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0913c61d.css",
+    "static/js/main.971010ea.js"
+  ]
+}
